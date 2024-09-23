@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8478c9;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: #16035c;
+    color: rgb(219, 216, 224);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(140, 139, 207);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.profile-photo {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 50%; /* Para deixá-la circular, se desejar */
+    display: block;
+    margin: 0 auto 10px; /* Centraliza a imagem e adiciona espaço abaixo */
+}
